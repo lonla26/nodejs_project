@@ -1,4 +1,4 @@
-const { Server } = require("http");
+const http = require("http");
 const net = require("net");
 const port = process.argv[2];
 
